@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio projects by Samudalapalepu Naveen with live and GitHub links.">
+  <title>Portfolio | Samudalapalepu Naveen</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-page="portfolio">
+  <div class="background-orb orb-one" aria-hidden="true"></div>
+  <div class="background-orb orb-two" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="index.html">Naveen</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-controls="siteNav" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <nav class="site-nav" id="siteNav">
+      <a data-nav href="index.html">Home</a>
+      <a data-nav href="portfolio.html">Portfolio</a>
+      <a data-nav href="contact.html">Hire Me</a>
+    </nav>
+  </header>
+
+  <main class="page-shell">
+    <section class="section reveal">
+      <div class="section-heading">
+        <p class="eyebrow">Portfolio</p>
+        <h1>Project Work</h1>
+        <p class="section-summary">
+          Selected backend, AI, and frontend projects with practical outcomes. Each card includes
+          stack details and action links.
+        </p>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="projects-grid" id="allProjects"></div>
+    </section>
+
+    <section class="section reveal">
+      <div class="process-grid">
+        <article class="process-card">
+          <h2>How I Work</h2>
+          <p>Clear milestones, weekly updates, and stable delivery with documented handoff.</p>
+        </article>
+        <article class="process-card">
+          <h2>Best Fit Projects</h2>
+          <p>Web platforms, role-based dashboards, Django apps, and UI-focused frontend work.</p>
+        </article>
+        <article class="process-card">
+          <h2>Need a custom build?</h2>
+          <p>Share your requirements and timeline to get a scoped plan and estimate.</p>
+          <a class="inline-link" href="contact.html">Go to Hire Me form</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
